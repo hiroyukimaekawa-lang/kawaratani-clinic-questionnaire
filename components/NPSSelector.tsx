@@ -5,7 +5,7 @@ type Props = {
   onChange: (score: number) => void;
 };
 
-const scoreOptions = Array.from({ length: 10 }, (_, idx) => 10 - idx);
+const scoreOptions = Array.from({ length: 10 }, (_, idx) => idx + 1);
 
 export function NPSSelector({ value, onChange }: Props) {
   return (
@@ -37,8 +37,8 @@ export function NPSSelector({ value, onChange }: Props) {
       </div>
 
       <div className="mt-1 flex items-center justify-between px-1">
-        <span className="text-[11px] text-gray-500">非常に満足</span>
         <span className="text-[11px] text-gray-500">非常に不満</span>
+        <span className="text-[11px] text-gray-500">非常に満足</span>
       </div>
     </div>
   );
