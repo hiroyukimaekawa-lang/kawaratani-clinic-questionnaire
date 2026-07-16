@@ -1,9 +1,9 @@
 export const clinicConfig = {
   name: '瓦谷クリニック',
   homepageUrl: 'https://www.kawaratani-clinic.jp/',
-  // Googleビジネスプロフィールのクチコミ投稿リンクが決まったら設定してください。
-  // 例: https://search.google.com/local/writereview?placeid=XXXXXXXXXXXX
-  googleReviewUrl: '',
+  // Googleクチコミの投稿先（口コミの遷移先）
+  googleReviewUrl:
+    'https://www.google.com/search?q=%E7%93%A6%E8%B0%B7%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF&oq=%E7%93%A6%E8%B0%B7%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg9MgYIBhBFGD0yBggHEEUYPdIBBzUwN2owajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8#lrd=0x6000dbe1ce0c9eab:0x662e2b0cdb3ce8b2,3,,,,',
   // 回答データを保存するGoogleスプレッドシート:
   // https://docs.google.com/spreadsheets/d/1xa_h8Wby2msnOUqXNcm_cK8Sl3heaFck_pskfGr3zpQ/edit
   //
