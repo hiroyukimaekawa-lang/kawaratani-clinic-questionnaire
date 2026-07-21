@@ -19,7 +19,7 @@ export const surveyQuestions: Question[] = [
   {
     id: 'waitingTime',
     type: 'nps',
-    title: '②待ち時間は適切でしたか',
+    title: '②当クリニックをお勧めしますか？',
     required: true,
   },
   {

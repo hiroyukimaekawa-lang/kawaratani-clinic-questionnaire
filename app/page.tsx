@@ -88,9 +88,9 @@ export default function SurveyPage() {
       }
     }
 
-    // 待ち時間・スタッフの対応の2項目がどちらも5点以上ならクチコミ投稿へ誘導する
+    // ②・③の2項目がどちらも8点以上ならクチコミ投稿へ誘導する
     const npsFields: (keyof SurveyFormState)[] = ['waitingTime', 'staffResponse'];
-    const allHighScore = npsFields.every((field) => Number(form[field]) >= 5);
+    const allHighScore = npsFields.every((field) => Number(form[field]) >= 8);
 
     setSubmitting(false);
     router.push(`/thanks?showReview=${allHighScore ? '1' : '0'}`);
