@@ -10,5 +10,5 @@ export const clinicConfig = {
   // このスプレッドシートに紐づくGoogle Apps ScriptをWebアプリとして公開し、
   // 発行されたURLを下記に設定してください（手順はREADME.mdを参照）。
   // Vercelにデプロイする場合は、環境変数 NEXT_PUBLIC_GAS_URL で設定することもできます。
-  gasUrl: process.env.NEXT_PUBLIC_GAS_URL || 'https://script.google.com/macros/s/AKfycbxMreUcCft6_8y5eJL4ELzgs4eH4lI0w968PVBq8SPFpukzHWDdce3zv2ztFuO6lIYt/exec',
+  gasUrl: process.env.NEXT_PUBLIC_GAS_URL || '',
 };
